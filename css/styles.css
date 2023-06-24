@@ -1,0 +1,26 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --title-font: 'Oswald', sans-serif;
+  --primary-black-color: #212121;
+  --primary-white-color: #ffffff;
+  --primary-accent-color: #03a9f4;
+  --secondary-accent-color: #0288d1;
+  --active-link-color: #404bbf;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.nav-list .nav-link {
+  color: #434455;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: #404bbf;
+}
+
+.nav-list .nav-link:active {
+  color: #404bbf;
+}
