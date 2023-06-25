@@ -45,7 +45,8 @@ body {
 }
 
 .nav-list.link:hover,
-.nav-list.link:focus .nav-list.link:active {
+.nav-list.link:focus,
+.nav-list.link:active {
   color: var(--active-button-color);
 }
 
@@ -107,11 +108,11 @@ h3 {
   letter-spacing: 0.4px;
 }
 
-.intro-list {
+.list {
   list-style-type: none;
 }
 
-.intro-list .intro-text {
+.list .intro-text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -128,15 +129,11 @@ h2 {
   text-transform: capitalize;
 }
 
-.services-list .services-list-item {
-  list-style-type: none;
-}
-
 .team {
   background-color: var(--Light-mode-backgrounds-color);
 }
-.team-list {
-  list-style-type: none;
+.team-list-item {
+  background-color: var(--primary-white-color);
 }
 .team-text {
   font-size: 16px;
@@ -169,10 +166,7 @@ footer {
   letter-spacing: 0.32px;
 }
 
-.projects-nav {
-  list-style-type: none;
-}
-.projects-nav .projects-button {
+.projects-button {
   font-family: Roboto, sans-serif;
   background-color: var(--light-accent-color);
   text-align: center;
@@ -198,4 +192,5 @@ footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--text-color);
 }
