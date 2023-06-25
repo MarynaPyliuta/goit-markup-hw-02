@@ -13,6 +13,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
+  background-color: var(--primary-white-color);
 }
 
 .header-logo {
@@ -63,9 +64,6 @@ body {
 
 .banner {
   background-color: var(--heading-color);
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
 
 .main-title {
@@ -79,25 +77,14 @@ body {
 }
 
 .button {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background: var(--light-blue-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--primary-white-color);
-  align-items: center;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
   background-color: var(--active-button-color);
-}
-
-.intro .section-title {
-  display: none;
 }
 
 h3 {
@@ -144,9 +131,6 @@ h2 {
 
 footer {
   background-color: var(--heading-color);
-  width: 1440px;
-  height: 312px;
-  flex-shrink: 0;
 }
 .footer-logo {
   color: var(--Light-mode-backgrounds-color);
@@ -169,13 +153,7 @@ footer {
   list-style-type: none;
 }
 .projects-nav .projects-button {
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-  border-radius: 4px;
   background-color: var(--light-accent-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
